@@ -34,6 +34,7 @@ catkin_package()
 
 add_library(icra18_controllers
   src/plug_in_controller.cpp
+  src/dual_plug_in_controller.cpp
 )
 
 add_dependencies(icra18_controllers

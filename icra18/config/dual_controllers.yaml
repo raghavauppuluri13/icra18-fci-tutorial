@@ -1,0 +1,24 @@
+model_example_controller:
+    type: icra18_controllers/ModelExampleController
+    arm_id: panda
+
+dual_plug_in_controller:
+    type: icra18_controllers/DualPlugInController
+    arm_id: pan_pan
+    static_arm_id: an_an
+    joint_names:
+        - pan_pan_joint1
+        - pan_pan_joint2
+        - pan_pan_joint3
+        - pan_pan_joint4
+        - pan_pan_joint5
+        - pan_pan_joint6
+        - pan_pan_joint7
+    static_joint_names:
+        - an_an_joint1
+        - an_an_joint2
+        - an_an_joint3
+        - an_an_joint4
+        - an_an_joint5
+        - an_an_joint6
+        - an_an_joint7

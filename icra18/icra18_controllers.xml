@@ -4,4 +4,9 @@
       Plug-in
     </description>
   </class>
+  <class name="icra18_controllers/DualPlugInController" type="icra18_controllers::DualPlugInController" base_class_type="controller_interface::ControllerBase">
+    <description>
+      Dual Plug-in
+    </description>
+  </class>
 </library>
